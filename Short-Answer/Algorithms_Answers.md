@@ -23,14 +23,14 @@ c) Linear Time / O(n) - This time also increases linearly with the size of the i
 
 ## Exercise II
 
-## Going to implement Binary Search for this problem because it's clear that eggs are not breaking at the floors that are lower than f.
-## This way we only search the floors higher than f and we literally avoid half of the floors each time.
+Going to implement Binary Search for this problem because it's clear that eggs are not breaking at the floors that are lower than f.
+This way we only search the floors higher than f and we literally avoid half of the floors each time.
 
      define a function which takes as parameters n floors
             initialize a variable to hold the starting point for our search
-            this will be set to the first floor
+            (this will be set to the first floor)
             initialize a variable to hold the ending point for our search
-            this will be set to the top floor
+            (this will be set to the top floor)
         
          create a loop which will continue as long as our starting and ending points have not crossed over each other
                 define a midpoint between the current starting and ending values
